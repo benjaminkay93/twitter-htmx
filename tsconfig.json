@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "jsxFactory": "Html.createElement",
+    "jsxFragmentFactory": "Html.Fragment",
+    "plugins": [{ "name": "@kitajs/ts-html-plugin" }],
+    "esModuleInterop": true
+  }
+}

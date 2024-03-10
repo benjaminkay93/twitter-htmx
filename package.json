@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "start:server": "node ./apps/server/index.ts",
+    "test:security": "xss-scan",
+    "tsc": "tsc"
+  },
+  "dependencies": {
+    "@kitajs/html": "^3.1.2",
+    "@kitajs/ts-html-plugin": "^1.3.4",
+    "@types/koa": "^2.15.0",
+    "koa": "^2.15.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.2"
+  }
+}
