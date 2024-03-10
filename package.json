@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start:server": "node ./apps/server/index.ts",
+    "start:server": "ts-node ./apps/server/index.ts",
     "test:security": "xss-scan",
     "tsc": "tsc"
   },
@@ -11,6 +11,7 @@
     "koa": "^2.15.0"
   },
   "devDependencies": {
+    "ts-node": "^10.9.2",
     "typescript": "^5.4.2"
   }
 }

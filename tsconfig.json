@@ -4,6 +4,7 @@
     "jsxFactory": "Html.createElement",
     "jsxFragmentFactory": "Html.Fragment",
     "plugins": [{ "name": "@kitajs/ts-html-plugin" }],
+    "lib": ["ESNext"],
     "esModuleInterop": true
   }
 }
