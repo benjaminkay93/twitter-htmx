@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start:server": "ts-node ./apps/server/index.ts",
+    "start:server": "ts-node ./apps/server/index.tsx",
     "test:security": "xss-scan",
     "tsc": "tsc"
   },

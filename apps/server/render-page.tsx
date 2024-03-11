@@ -1,4 +1,8 @@
-import Html from "@kitajs/html";
+import Html, { PropsWithChildren } from "@kitajs/html";
 import { Document } from "../client/_document";
 
-export const renderPage = (rid: number) => <Document title="hello" />
+export const renderPage = ({ children }: PropsWithChildren) => (
+  <Document title="hello">
+    {children}
+  </Document>
+)
