@@ -1,3 +1,3 @@
 import Html from "@kitajs/html"
 
-export const Home = () => (<div>Welcome to twitter-htmx clone.</div>)
+export const Index = () => (<div>Welcome to twitter-htmx clone.</div>)
