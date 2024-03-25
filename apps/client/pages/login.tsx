@@ -2,7 +2,7 @@ import Html from "@kitajs/html"
 
 export const Login = () => {
   return (
-    <form hx-post="/user/login">
+    <form>
       <label for="username"><b>Username</b></label>
       <input type="text" name="username" required />
       <label for="password"><b>Password</b></label>
